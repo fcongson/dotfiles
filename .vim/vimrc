@@ -10,3 +10,14 @@ set showmatch       " highlight matching [{()}]
 
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
+
+" https://github.com/junegunn/vim-plug/wiki/tutorial
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdtree'
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
