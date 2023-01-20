@@ -4677,6 +4677,8 @@
 	<true/>
 	<key>ShowPaneTitles</key>
 	<false/>
+	<key>Size Changes Affect Profile</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
